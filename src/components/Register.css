@@ -1,0 +1,22 @@
+.App-Register-Row{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 475px;
+    width:25%;
+}
+
+.App-Register-Row input{
+    padding: 5px;
+    margin: 5px;
+}
+
+.App-Register-Row button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    margin-left: 60px;
+}
