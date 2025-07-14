@@ -108,6 +108,7 @@ export default function Register() {
             type="text"
             placeholder="Enter Email Address"
             onChange={(e) => setUser({ ...user, email: e.target.value })}
+            required
           />
         </p>
         <p>
@@ -115,6 +116,7 @@ export default function Register() {
             type="password"
             placeholder="Enter Password"
             onChange={(e) => setUser({ ...user, password: e.target.value })}
+            required
           />
         </p>
         <p>

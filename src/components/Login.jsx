@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import './Login.css';
+
 export default function Login() {
   const [user, setUser] = useState({});
   const [error, setError] = useState();
@@ -17,7 +19,7 @@ export default function Login() {
     }
   };
   return (
-    <div>
+    <div className="login-container"> 
       
       <h2>Login</h2>
       {error}

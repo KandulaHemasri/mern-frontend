@@ -11,7 +11,7 @@ export default function Admin() {
 
       <div>
       <Outlet/>
-    </div>w
+    </div>
     </div>
 
   )
